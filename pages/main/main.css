@@ -87,6 +87,12 @@
 	background: rgb(255, 229, 85);
 	border: none;
 	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+a{
+	text-decoration: none;
 }
 main{
 	display: flex;
