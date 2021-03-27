@@ -1,0 +1,295 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: rgb(199, 190, 190);
+}
+.mainDiv {
+ font-family: 'Quicksand', sans-serif;
+ display: block;
+ width: 95vw;
+ height: 200vh;
+ background-size: 100%;
+ background: white;
+}
+
+.header{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 5%;
+   border-width: 0px 0px 1px 0px;
+   border-color: rgb(199, 190, 190);;
+   border-style:solid;
+}
+.mainHeader{
+   height: 100%;
+   width: 95%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+} 
+.navHeader{
+   display: flex;
+   align-items: center;
+   width: 80%;
+   height: 100%;
+}
+.userHeader{
+   height: 100%;
+   width: 20%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.logo{
+   display: flex;
+   align-items: center;
+   font-size: 150%;
+   height: 100%;
+   width: 15%;
+}
+.search{
+   display: flex;
+   align-items: center;
+   height: 50%;
+   width: 30%;
+   border-width: 1px 1px 1px 1px;
+   border-color: rgb(199, 190, 190);;
+   border-style:solid;
+}
+
+.smileHeader{
+   width: 30%;
+   height: 100%;
+}
+.buttonHeader{
+   background: rgb(255, 255, 255);
+   border: none;
+   height: 60%;
+   width: 10%;
+   outline: none;
+   background-image: url(../../assets/images/search.png);
+   background-size: 60%;
+   background-repeat: no-repeat;
+}
+.navigation{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100%;
+   width: 40%;
+   margin-left: 3%;
+   font-size: 120%;
+}
+.inpHeader{
+   border: none;
+   width: 90%;
+   outline: none;
+}
+.inputHeader{
+   height: 50%;
+   width: 30%;
+   background: rgb(255, 229, 85);
+   border: none;
+   outline: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+.underline{
+   text-decoration: underline;
+}
+main{
+   display: flex;
+   width: 100%;
+   height: 80%;
+   
+}
+.userMain{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 70%;
+   height: 100%;
+   border-width: 0px 1px 0px 0px;
+   border-color: rgb(199, 190, 190);
+   border-style:solid;
+}
+.newsMain{
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   width: 30%;
+   
+}
+.news{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   position: fixed;
+   width: 20%;
+   height: 85%;
+}
+.new1{
+   width: 40%;
+   height: 15%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-image: url(../../assets/images/Rectangle.jpg);
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.new2{
+   width: 40%;
+   height: 15%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-image: url(../../assets/images/Rectangle1.jpg);
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.new3{
+   width: 40%;
+   height: 15%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-image: url(../../assets/images/Rectangle2.jpg);
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.new4{
+   width: 40%;
+   height: 15%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-image: url(../../assets/images/Rectangle2.jpg);
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+footer{
+   width: 70%;
+   height: 15%;
+   border-width: 1px 1px 0px 0px;
+   border-color: rgb(199, 190, 190);
+   border-style:solid;
+}
+
+.youPlaylist{
+   width: 90%;
+   height: 25%;
+}
+.youMusik{
+   width: 90%;
+   height: 74%;	
+}
+
+.youPlaylistText{
+   width: 100%;
+   height: 20%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.youPlaylistContent{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 80%;
+}
+.text1{
+   font-size: 150%;
+}
+.youPlaylistContent1{
+   width: 23%;
+   height: 100%;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   border-radius: 5%;
+}
+.youMusikText{
+   width: 100%;
+   height: 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.text3{
+   font-size: 150%;
+}
+.youMusikContent{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr  ;
+     grid-gap: 1vw;
+   width: 60%;
+   height: 90%;
+}
+.youMusikContent > div{
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.bg1{
+   background-image: url(../../assets/images/kizaru1.jpg);
+   background-position: center;
+   background-size: 110%;
+   background-repeat: no-repeat;
+}
+.bg1:hover{
+   transform: scale(1.05);
+}
+.bg2:hover{
+   transform: scale(1.05);
+}
+.bg3:hover{
+   transform: scale(1.05);
+}
+.bg4:hover{
+   transform: scale(1.05);
+}
+.bg2{
+   background-image: url(../../assets/images/kizaru2.jpg);
+   background-position: center;
+   background-size: 110%;
+   background-repeat: no-repeat;
+}
+.bg3{
+   background-image: url(../../assets/images/kizaru3.jpg);
+   background-position: center;
+   background-size: 210%;
+   background-repeat: no-repeat;
+}
+.bg4{
+   background-image: url(../../assets/images/kizaru4.jpg);
+   background-position: center;
+   background-size: 110%;
+   background-repeat: no-repeat;
+}
+.textMore{
+	display: flex;
+	width: 60%;
+	height: 5%;
+	font-size: 130%;
+	justify-content: center;
+	align-items: center;
+	align-self: flex-start;
+}
+.new-bg1{
+	background: url(../../assets/images/smile1.png);
+	background-position: center;
+	background-size: 50%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+}
+.new-bg2{
+	background: url(../../assets/images/smile2.png);
+	background-position: center;
+	background-size: 50%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+}
+.new-bg3{
+	background: url(../../assets/images/smile3.png);
+	background-position: center;
+	background-size: 50%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+}
