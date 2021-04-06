@@ -171,6 +171,9 @@ footer{
 	border-width: 1px 1px 0px 0px;
 	border-color: rgb(199, 190, 190);
 	border-style:solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .dayList{
 	display: flex;
