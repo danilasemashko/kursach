@@ -13,7 +13,7 @@ const weatherDescription = document.querySelector('.weather-description');
 const city = document.getElementById('city');
 
 async function getWeather() {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=Minsk&lang=en&appid=8ce61da97afdb455390227231c7736df
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.textContent}&lang=en&appid=8ce61da97afdb455390227231c7736df
   &units=metric`;
     const res = await fetch(url);
     const data = await res.json();
