@@ -218,15 +218,17 @@ footer{
 }
 .youMusikContent{
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  	grid-template-columns: 1fr  ;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  	grid-template-columns: 1fr 1fr ;
   	grid-gap: 1vw;
-	width: 60%;
+	width: 100%;
 	height: 90%;
 }
-.youMusikContent > div{
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.youMusikContent > audio{
+	width: 100%;
+	
 }
+
 .bg1{
 	background-image: url(../../assets/images/kizaru1.jpg);
 	background-position: center;

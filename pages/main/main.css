@@ -172,9 +172,9 @@ footer{
 	border-color: rgb(199, 190, 190);
 	border-style:solid;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 }
 .dayList{
 	display: flex;
@@ -266,6 +266,7 @@ footer{
 .youMusikContent > div{
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 .underline{
 	text-decoration: underline;
  }
@@ -390,4 +391,8 @@ footer{
 	background-position: center;
 	background-size: 120%;
 	background-repeat: no-repeat;
+}
+select{
+	height: 20%;
+	font-size: medium;
 }
